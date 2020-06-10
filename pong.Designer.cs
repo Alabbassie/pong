@@ -63,7 +63,7 @@
             this.gameover_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gameover_lbl.Location = new System.Drawing.Point(624, 174);
             this.gameover_lbl.Name = "gameover_lbl";
-            this.gameover_lbl.Size = new System.Drawing.Size(506, 266);
+            this.gameover_lbl.Size = new System.Drawing.Size(420, 217);
             this.gameover_lbl.TabIndex = 4;
             this.gameover_lbl.Text = "Helaas! \r\n\r\nGame Over\r\n\r\nDruk op: f1 om opnieuw te starten\r\n\r\nDruk op: esc om af " +
     "te sluiten";
@@ -75,7 +75,7 @@
             this.points_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.points_lbl.Location = new System.Drawing.Point(221, 9);
             this.points_lbl.Name = "points_lbl";
-            this.points_lbl.Size = new System.Drawing.Size(63, 69);
+            this.points_lbl.Size = new System.Drawing.Size(51, 55);
             this.points_lbl.TabIndex = 3;
             this.points_lbl.Text = "0";
             // 
@@ -85,7 +85,7 @@
             this.score.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score.Location = new System.Drawing.Point(22, 9);
             this.score.Name = "score";
-            this.score.Size = new System.Drawing.Size(193, 69);
+            this.score.Size = new System.Drawing.Size(155, 55);
             this.score.TabIndex = 2;
             this.score.Text = "score:";
             // 
@@ -95,17 +95,16 @@
             this.ball.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ball.BackgroundImage")));
             this.ball.Location = new System.Drawing.Point(147, 174);
             this.ball.Name = "ball";
-            this.ball.Size = new System.Drawing.Size(51, 51);
+            this.ball.Size = new System.Drawing.Size(51, 48);
             this.ball.TabIndex = 1;
             this.ball.TabStop = false;
-            this.ball.Click += new System.EventHandler(this.ball_Click);
             // 
             // racket
             // 
             this.racket.BackColor = System.Drawing.Color.Black;
-            this.racket.Location = new System.Drawing.Point(353, 532);
+            this.racket.Location = new System.Drawing.Point(792, 571);
             this.racket.Name = "racket";
-            this.racket.Size = new System.Drawing.Size(158, 14);
+            this.racket.Size = new System.Drawing.Size(146, 10);
             this.racket.TabIndex = 0;
             this.racket.TabStop = false;
             // 
@@ -122,7 +121,7 @@
             // 
             // pong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 644);
             this.Controls.Add(this.playground);

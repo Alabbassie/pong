@@ -118,10 +118,6 @@ namespace pong
            
         }
 
-        private void ball_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
